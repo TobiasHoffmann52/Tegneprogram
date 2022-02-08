@@ -5,7 +5,7 @@ void setup() {
 
 void draw() {
   float s = random(15, 45);
-  text("NÅR EN TEST TRYKKES SKIFTES FARVE", 10, 30);
+  text("NÅR EN TAST TRYKKES SKIFTES FARVE", 10, 30);
 
   if (mousePressed)
     ellipse(mouseX, mouseY, s, s);
